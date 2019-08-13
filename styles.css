@@ -1,3 +1,15 @@
+/* Reduce padding on primary links */
+nav[aria-label="Primary"] > a > div {
+  padding-bottom: 5px;
+  padding-top: 5px
+}
+
+/* Reduce font size on primary links */
+nav[aria-label="Primary"] > a span,
+nav[aria-label="Primary"] > div span {
+  font-size: 16px !important
+}
+
 /* Hide 'Trending' blocks */
 [aria-label="Timeline: Trending now"] {
   display: none !important
