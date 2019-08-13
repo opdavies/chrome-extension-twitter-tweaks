@@ -1,0 +1,4 @@
+/* Hide 'Trending' blocks */
+[aria-label="Timeline: Trending now"] {
+  display: none !important
+}
