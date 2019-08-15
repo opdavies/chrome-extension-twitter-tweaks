@@ -22,3 +22,11 @@ nav[aria-label="Primary"] > div span {
   line-height: 1.5;
   margin-top: 5px
 }
+
+a[aria-label="Tweet"] {
+  height: auto;
+  min-height: 0;
+  min-width: 0;
+  padding: 10px 15px;
+  width: 70%;
+}
