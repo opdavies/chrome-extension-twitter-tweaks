@@ -16,7 +16,7 @@ nav[aria-label="Primary"] > div span {
 }
 
 /* Adjust the font styling within tweets */
-[aria-label="Timeline: Notifications"] article div[lang] span {
+[aria-label="Timeline: Notifications"] article div[lang] {
   display: block;
   font-size: 14px;
   line-height: 1.5;
